@@ -3,7 +3,7 @@ import React from 'react'
 function App() {
   return (
     <div>
-      Rick and morty
+      Me arrepenti, ahora es  de pokemon
     </div>
   );
 }
