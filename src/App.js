@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Characters from "./components/Characters/Characters";
+import CharacterDetail from "./components/CharacterDetail/CharacterDetail";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/episodes" element={<div>Episodes</div>} />
         <Route path="/locations" element={<div>Locations</div>} />
         <Route path="/contact" element={<div>Contact</div>} />
+        <Route path="/characters/:id" element={<CharacterDetail />} />
       </Routes>
     </div>
   );
