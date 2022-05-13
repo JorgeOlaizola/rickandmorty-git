@@ -1,16 +1,18 @@
-import React from 'react'
-import { Routes, Route} from 'react-router-dom'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import CharacterDetail from "./components/CharacterDetail/CharacterDetail";
 
 function App() {
   return (
     <div>
       Rick and morty
       <Routes>
-        <Route path='/' element={<div>Home</div>}/>
-        <Route path='/characters' element={<div>Characters</div>}/>
-        <Route path='/episodes' element={<div>Episodes</div>}/>
-        <Route path='/locations' element={<div>Locations</div>}/>
-        <Route path='/contact' element={<div>Contact</div>}/>
+        <Route path="/" element={<div>Home</div>} />
+        <Route path="/characters" element={<div>Characters</div>} />
+        <Route path="/episodes" element={<div>Episodes</div>} />
+        <Route path="/locations" element={<div>Locations</div>} />
+        <Route path="/contact" element={<div>Contact</div>} />
+        <Route path="/characters/:id" element={<CharacterDetail />} />
       </Routes>
     </div>
   );
