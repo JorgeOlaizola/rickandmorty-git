@@ -7,7 +7,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Routes>
-        <Route path='/' element={<div>Home</div>}/>
+        {/* <Route path='/' element={<div>Home</div>}/> */}
         <Route path='/characters' element={<div>Characters</div>}/>
         <Route path='/episodes' element={<div>Episodes</div>}/>
         <Route path='/locations' element={<div>Locations</div>}/>
