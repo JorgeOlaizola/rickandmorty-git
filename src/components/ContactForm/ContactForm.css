@@ -1,0 +1,40 @@
+.body-contact {
+  background-image: linear-gradient(
+    to right top,
+    #6c766f,
+    #72977e,
+    #77b98d,
+    #79dc9b,
+    #7affa8
+  );
+  background-size: cover;
+}
+.contact-title {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+.contact-text {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: left;
+  margin: 0;
+}
+.contact-input {
+  width: 95%;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.contact-button {
+  background-color: #bfc8d7;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin: 16px 0px;
+  font-size: 15px;
+}
