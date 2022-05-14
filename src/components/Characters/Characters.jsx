@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { API_ENDPOINTS } from "../../utils/constants";
 import Character from "./Character";
-import "./characters.css";
+import "../characters/characters.css";
 
 export default function CharactersComponent() {
   const [characters, setCharacters] = useState();
