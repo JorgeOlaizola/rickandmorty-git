@@ -1,6 +1,8 @@
 import React,{useEffect, useState}from "react";
 import axios from "axios";
 import { API_ENDPOINTS } from '../../utils/constants';
+import '../cards/cards.css'
+
 const Episodes = ()=>{
     const [episodes,setEpisodes] = useState([]);
 
