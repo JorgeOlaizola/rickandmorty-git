@@ -5,3 +5,5 @@ export const API_ENDPOINTS = {
     locations: `${FETCH_URL}/location`,
     episodes: `${FETCH_URL}/episode`
 }
+
+// Comentario
