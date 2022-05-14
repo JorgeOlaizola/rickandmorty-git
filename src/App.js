@@ -7,7 +7,7 @@ import Characters from './components/Characters/Characters';
 import CharacterDetail from './components/CharacterDetail/CharacterDetail';
 import Episodes from './components/Episodes/Episodes';
 import ContactForm from './components/ContactForm/ContactForm';
-import Locations from './components/locations/Locations';
+import Locations from './components/locations/locations';
 
 function App() {
   return (

@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useState, useEffect } from "react";
 import { API_ENDPOINTS } from "../../utils/constants";
-import Location from "./Location";
+import Location from "./location";
 import '../cards/cards.css'
 
 function Locations() {
