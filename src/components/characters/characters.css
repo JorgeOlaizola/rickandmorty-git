@@ -1,0 +1,44 @@
+/* Contenedor de todas las cartas  */
+.characters-container{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+	grid-template-rows: 50% 50%;
+    height: 60vh;
+	gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+} 
+/* Contenedor de la carta */
+.character-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}  
+/* Imagen del personaje  */
+.character-image{
+    height: 120px;
+    border-radius: 100%;
+} 
+/* Nombre del personaje  */
+.character-name{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+} 
+/* Especie del personaje */
+.character-species{
+    font-size: .7rem;
+    font-style: italic;
+}  
+/* Botón al detalle */
+.character-button{
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: green;
+}  
