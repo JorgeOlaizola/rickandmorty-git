@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../Characters/character.css";
+import "./characters.css";
 
 export default function Character({ character }) {
   return (
