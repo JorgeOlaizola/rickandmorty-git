@@ -2,4 +2,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.imagen {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
 }
