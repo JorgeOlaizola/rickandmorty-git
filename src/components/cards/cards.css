@@ -1,0 +1,28 @@
+/* Contenedor de todas las cartas */
+.cards-container{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+	grid-template-rows: 50% 50%;
+    height: 60vh;
+	gap: 2rem;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+}  
+/* Contenedor de la carta  */
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
+/* Nombre del episodio */
+.card-name{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}  
+/* Información de las cartas  */
+.card-text{
+    text-align: justify;
+} 
