@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Characters from "./components/Characters/Characters";
 import CharacterDetail from "./components/CharacterDetail/CharacterDetail";
-import Characters from "./components/characters/Characters";
 
 function App() {
   return (
