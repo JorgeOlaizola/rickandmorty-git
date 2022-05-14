@@ -1,6 +1,7 @@
 import React from 'react'
 import { Routes, Route} from 'react-router-dom'
 import { Navbar } from './components/NavBar/Navbar';
+import './styles/global.css'
 
 function App() {
   return (
