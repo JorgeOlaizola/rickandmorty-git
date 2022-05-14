@@ -19,8 +19,8 @@ const Episodes = ()=>{
     
    
     return(
-        <div>
-            {episodes&& episodes.map((epi, i)=> <li key={i}>Episode :{epi.name}<p>Date: {epi.air_date}</p></li>)}
+        <div className='cards-container'>
+            {episodes&& episodes.map((epi, i)=> <li  className='card-container' key={i}><div className='card-name'>Episode :{epi.name}</div><p className='card-text'>Date: {epi.air_date}</p></li>)}
         </div>
     )
 };

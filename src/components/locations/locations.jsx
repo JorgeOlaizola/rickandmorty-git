@@ -3,6 +3,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { API_ENDPOINTS } from "../../utils/constants";
 import Location from "./Location";
+import '../cards/cards.css'
 
 function Locations() {
   const [all, setAll] = useState([]);
@@ -15,7 +16,7 @@ function Locations() {
   return (
     <div>
       {all.length > 0 && all?.map((location) => (
-        <Location location={location} />
+        <Location className='cards-container' location={location} />
       ))}
     </div>
   );
